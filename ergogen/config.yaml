@@ -1,0 +1,103 @@
+meta:
+  engine: 4.1.0
+  name: loquat-legiongo
+  version: 0.1
+  author: Sergei Silnov <po@kumekay.com>
+
+units:
+  # Keycap raw size (PG1316S, mikefive-style)
+  krx: 16
+  kry: 16
+  # Key spacing (tight pitch to fit 12 columns in 207mm)
+  kx: 16.8
+  ky: 16.8
+  # Board bounding box (Legion Go tablet is 210x131)
+  bw: 207
+  bh: 130
+  # Azoteq TPS43 touchpad
+  tpw: 43
+  tph: 40
+  # Pinky columns drop relative to ring column (aronia had only ~0.1ky - way too little)
+  pinkydrop: 0.45ky
+
+points:
+  zones:
+    matrix:
+      anchor:
+        shift: [2.26, 86.41]
+        rotate: -34
+      key:
+        padding: 1ky
+        spread: 1kx
+      columns:
+        outerpinky:
+          key.shift: [0, 0]
+          rows:
+            bottom:
+              skip: true
+        pinky:
+        ring:
+          key.stagger: pinkydrop
+        middle:
+          key.stagger: 0.12ky
+        index:
+          key.stagger: -0.28ky
+        inner:
+          key.stagger: -0.12ky
+      rows:
+        bottom:
+        home:
+        top:
+    thumbs:
+      # Compact: 3 keys directly under middle/index/inner,
+      # no inward extension (center gap between halves is only ~4mm)
+      anchor:
+        ref: matrix_middle_bottom
+        shift: [.7kx, -1.8ky]
+      key:
+        padding: 1ky
+        spread: 1kx
+      columns:
+        alpha:
+        beta:
+          # follow the matrix stagger so each thumb key sits 1.05ky
+          # below its column's bottom key (compact arc)
+          # key.stagger: -0.28ky
+        gamma:
+          # key.stagger: -0.12ky
+      rows:
+        cluster:
+    touchpad:
+      # Full-width bottom strip is the only place TPS43 fits
+      anchor:
+        shift: [103.5, 21]
+      key:
+        asym: source
+      columns:
+        pad:
+      rows:
+        pad:
+  mirror:
+    ref: matrix_inner_bottom
+    distance: 60
+
+outlines:
+  _keycaps:
+    - what: rectangle
+      where: /matrix|thumbs/
+      size: [krx, kry]
+  _touchpad:
+    - what: rectangle
+      where: /touchpad/
+      size: [tpw, tph]
+  _board:
+    - what: rectangle
+      where:
+        shift: [0.5bw, 0.5bh]
+      size: [bw, bh]
+  preview:
+    - name: _board
+    - operation: stack
+      name: _keycaps
+    - operation: stack
+      name: _touchpad
