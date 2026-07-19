@@ -24,8 +24,8 @@ points:
   zones:
     matrix:
       anchor:
-        shift: [2.26, 86.41]
-        rotate: -34
+        shift: [0, 84]
+        rotate: -36
       key:
         padding: 1ky
         spread: 1kx
@@ -37,7 +37,7 @@ points:
               skip: true
         pinky:
         ring:
-          key.stagger: pinkydrop
+          key.stagger: 0.5ky
         middle:
           key.stagger: 0.12ky
         index:
@@ -53,7 +53,7 @@ points:
       # no inward extension (center gap between halves is only ~4mm)
       anchor:
         ref: matrix_middle_bottom
-        shift: [.7kx, -1.8ky]
+        shift: [.7kx, -1.9ky]
       key:
         padding: 1ky
         spread: 1kx
@@ -67,34 +67,35 @@ points:
           # key.stagger: -0.12ky
       rows:
         cluster:
-    touchpad:
-      # Full-width bottom strip is the only place TPS43 fits
-      anchor:
-        shift: [103.5, 21]
-      key:
-        asym: source
-      columns:
-        pad:
-      rows:
-        pad:
   mirror:
     ref: matrix_inner_bottom
-    distance: 60
-
+    distance: 64
 outlines:
   _keycaps:
     - what: rectangle
       where: /matrix|thumbs/
       size: [krx, kry]
-  _touchpad:
-    - what: rectangle
-      where: /touchpad/
-      size: [tpw, tph]
+  # Board frame and touchpad follow the key cluster instead of the reverse.
+  # Averaging the two topmost keys (outerpinky_top) with the two bottommost
+  # (thumbs_gamma_cluster) lands on the cluster's bounding-box center: the x
+  # falls on the mirror axis, and equal |rotation| makes the y the true midpoint.
   _board:
     - what: rectangle
       where:
-        shift: [0.5bw, 0.5bh]
+        aggregate: &cluster_center
+          parts:
+            - ref: matrix_outerpinky_top
+            - ref: mirror_matrix_outerpinky_top
+            - ref: thumbs_gamma_cluster
+            - ref: mirror_thumbs_gamma_cluster
+          method: average
       size: [bw, bh]
+  _touchpad:
+    - what: rectangle
+      where:
+        aggregate: *cluster_center
+        shift: [0, -44]
+      size: [tpw, tph]
   preview:
     - name: _board
     - operation: stack

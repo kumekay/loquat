@@ -1,0 +1,64 @@
+version = 1
+
+[[skill]]
+name = 'bom'
+source = 'git@github.com:aklofas/kicad-happy.git'
+path = 'skills/bom'
+commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
+hash = 'sha256:e1493ec9054837b650b4a8fadb1e066d37768139ef62258a8ee486bd9e2523fa'
+
+[[skill]]
+name = 'datasheets'
+source = 'git@github.com:aklofas/kicad-happy.git'
+path = 'skills/datasheets'
+commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
+hash = 'sha256:bbb1f7ce5490795b23725f37abe7a0527a4fdb9f13b30eebb58a7181655b3b1d'
+
+[[skill]]
+name = 'emc'
+source = 'git@github.com:aklofas/kicad-happy.git'
+path = 'skills/emc'
+commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
+hash = 'sha256:0994687b54efc0b9846b80350dbe5c1d039a27e4caf2f69267004487ffc2d38f'
+
+[[skill]]
+name = 'jlcpcb'
+source = 'git@github.com:aklofas/kicad-happy.git'
+path = 'skills/jlcpcb'
+commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
+hash = 'sha256:f64366b3db0f3452af5b2a39f0d32d582dd5dbff9196c33213f8e0a4ac835381'
+
+[[skill]]
+name = 'kicad'
+source = 'git@github.com:aklofas/kicad-happy.git'
+path = 'skills/kicad'
+commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
+hash = 'sha256:0572e27b55d4f44a5fd818e56f9502fb9fe8a55af8502f628d8c60957042d2e7'
+
+[[skill]]
+name = 'lcsc'
+source = 'git@github.com:aklofas/kicad-happy.git'
+path = 'skills/lcsc'
+commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
+hash = 'sha256:6298c92c16a1bcf57be87fdfcc3d5ba81f8a48902d48d4c01a851e1278b66422'
+
+[[skill]]
+name = 'mouser'
+source = 'git@github.com:aklofas/kicad-happy.git'
+path = 'skills/mouser'
+commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
+hash = 'sha256:5ece4c4bed3346ce21f6364549e88c827e752c22188b17259f5bc6ed05423d4d'
+
+[[skill]]
+name = 'pcbway'
+source = 'git@github.com:aklofas/kicad-happy.git'
+path = 'skills/pcbway'
+commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
+hash = 'sha256:021eac778f28ad7c006a70b309b85625c386e35df1998b31d8bd49f11b75d166'
+
+[[skill]]
+name = 'spice'
+source = 'git@github.com:aklofas/kicad-happy.git'
+path = 'skills/spice'
+commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
+hash = 'sha256:d013fc9db95637664ea8e013bad306e153f73b6e7317b239c6374d04dc7f3cde'

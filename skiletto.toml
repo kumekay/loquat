@@ -1,0 +1,10 @@
+[skills]
+bom = { source = "git@github.com:aklofas/kicad-happy.git", path = "skills/bom" }
+datasheets = { source = "git@github.com:aklofas/kicad-happy.git", path = "skills/datasheets" }
+emc = { source = "git@github.com:aklofas/kicad-happy.git", path = "skills/emc" }
+jlcpcb = { source = "git@github.com:aklofas/kicad-happy.git", path = "skills/jlcpcb" }
+kicad = { source = "git@github.com:aklofas/kicad-happy.git", path = "skills/kicad" }
+lcsc = { source = "git@github.com:aklofas/kicad-happy.git", path = "skills/lcsc" }
+mouser = { source = "git@github.com:aklofas/kicad-happy.git", path = "skills/mouser" }
+pcbway = { source = "git@github.com:aklofas/kicad-happy.git", path = "skills/pcbway" }
+spice = { source = "git@github.com:aklofas/kicad-happy.git", path = "skills/spice" }
