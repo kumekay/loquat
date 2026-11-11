@@ -25,7 +25,7 @@ points:
     matrix:
       anchor:
         shift: [0, 84]
-        rotate: -36
+        rotate: -42
       key:
         padding: 1ky
         spread: 1kx
@@ -37,7 +37,7 @@ points:
               skip: true
         pinky:
         ring:
-          key.stagger: 0.5ky
+          key.stagger: 0.8ky
         middle:
           key.stagger: 0.12ky
         index:
@@ -53,7 +53,7 @@ points:
       # no inward extension (center gap between halves is only ~4mm)
       anchor:
         ref: matrix_middle_bottom
-        shift: [.7kx, -1.9ky]
+        shift: [1.0kx, -1.5ky]
       key:
         padding: 1ky
         spread: 1kx
@@ -69,7 +69,7 @@ points:
         cluster:
   mirror:
     ref: matrix_inner_bottom
-    distance: 64
+    distance: 70
 outlines:
   _keycaps:
     - what: rectangle
