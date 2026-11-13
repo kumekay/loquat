@@ -687,309 +687,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x07"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x07"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x07_1_1"
-				(rectangle
-					(start -1.27 8.89)
-					(end 1.27 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1113,6 +810,170 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1763,7 +1624,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "AUX header J9. Holes at 2.54 mm. Two uses:\nT14 mouse keys: keys 1 to 5 on pins 1 to 5, GND on pin 6.\nLegion Go fingerprint sensor: pin 2 WAKE, pin 3 RST,\npin 4 sensor TX, pin 5 sensor RX, pin 6 GND, pin 7 VIN."
+	(text "AUX header J9. Holes at 2.54 mm. Two uses:\nT14 mouse keys: keys 1 to 3 on pins 1 to 3, GND on pin 5.\nLegion Go fingerprint sensor: pin 1 WAKE, pin 2 RST,\npin 3 sensor TX, pin 4 sensor RX, pin 5 GND, pin 6 VIN."
 		(exclude_from_sim no)
 		(at 41.91 125.73 0)
 		(effects
@@ -1927,16 +1788,6 @@
 			(type default)
 		)
 		(uuid "384362f4-7532-528d-8c4b-a28ec526ee07")
-	)
-	(wire
-		(pts
-			(xy 54.61 106.68) (xy 49.53 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38f514ec-69f4-4f3e-9960-c7b276dfd1fa")
 	)
 	(wire
 		(pts
@@ -2448,7 +2299,7 @@
 		)
 		(uuid "fada5853-b424-4580-804f-5eab40b38e18")
 	)
-	(label "AUX3"
+	(label "AUX2"
 		(at 49.53 111.76 180)
 		(effects
 			(font
@@ -2507,16 +2358,6 @@
 			(justify left)
 		)
 		(uuid "244b2a1b-16ff-5f74-bf70-19ca72dbc8fc")
-	)
-	(label "AUX1"
-		(at 49.53 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34ee1648-f5e1-4be6-991f-7ad50ca16c76")
 	)
 	(label "VBAT"
 		(at 49.53 139.7 180)
@@ -2578,7 +2419,7 @@
 		)
 		(uuid "77073f34-cdd7-5fcd-be61-5063258cb221")
 	)
-	(label "AUX1"
+	(label "PWR_BTN"
 		(at 41.91 85.09 180)
 		(effects
 			(font
@@ -2598,7 +2439,7 @@
 		)
 		(uuid "8a6175a6-0315-5edf-bce1-6745e6ac8920")
 	)
-	(label "AUX4"
+	(label "AUX3"
 		(at 80.01 85.09 0)
 		(effects
 			(font
@@ -2628,7 +2469,7 @@
 		)
 		(uuid "a9b6ba8d-eeda-5e06-a24b-151d87b30b2a")
 	)
-	(label "AUX2"
+	(label "AUX1"
 		(at 80.01 80.01 0)
 		(effects
 			(font
@@ -2638,7 +2479,7 @@
 		)
 		(uuid "b3e60ed9-6dfa-4739-a30b-80f17a2e4954")
 	)
-	(label "AUX4"
+	(label "AUX3"
 		(at 49.53 114.3 180)
 		(effects
 			(font
@@ -2648,7 +2489,7 @@
 		)
 		(uuid "b87c9561-2f85-4547-a92c-aeb7c202b70c")
 	)
-	(label "AUX5"
+	(label "AUX4"
 		(at 49.53 116.84 180)
 		(effects
 			(font
@@ -2658,7 +2499,7 @@
 		)
 		(uuid "cec9eb43-51bd-44c2-9005-746027cd9ece")
 	)
-	(label "AUX2"
+	(label "AUX1"
 		(at 49.53 109.22 180)
 		(effects
 			(font
@@ -2678,7 +2519,7 @@
 		)
 		(uuid "dd544c04-5530-4923-ae3d-d717de03ef4e")
 	)
-	(label "AUX5"
+	(label "AUX4"
 		(at 80.01 87.63 0)
 		(effects
 			(font
@@ -2698,7 +2539,7 @@
 		)
 		(uuid "ec793914-180c-50f2-818b-8f23ab193e34")
 	)
-	(label "AUX3"
+	(label "AUX2"
 		(at 80.01 82.55 0)
 		(effects
 			(font
@@ -3012,6 +2853,183 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 31.75 95.25) (xy 34.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6208d787-ba4b-4f3f-833d-acf3223cdcb7")
+	)
+	(label "PWR_BTN"
+		(at 34.29 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c051e9c-83bf-4c37-8625-c890bb1a4f8c")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 26.67 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26d00e42-9f92-47e4-8fe6-a5214c360f1e")
+		(property "Reference" "SW46"
+			(at 26.67 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_BTN"
+			(at 26.67 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Soft off button. Wakes the nRF52840 from ZMK soft off."
+			(at 26.67 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fffa718d-a0a0-4633-b6d5-bb01be3e3d50")
+		)
+		(pin "2"
+			(uuid "09c2cb52-331f-4e77-a683-ae4076786d00")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
+					(reference "SW46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8faddef-bce1-432f-9564-f9ff5657d879")
+		(property "Reference" "#PWR0021"
+			(at 21.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b394ca6-469e-4b59-8370-202a4dc20077")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
+					(reference "#PWR0021")
+					(unit 1)
 				)
 			)
 		)
@@ -3342,7 +3360,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x07")
+		(lib_id "Connector_Generic:Conn_01x06")
 		(at 59.69 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -3363,7 +3381,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AUX_7p"
+		(property "Value" "AUX_6p"
 			(at 62.23 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3427,9 +3445,6 @@
 		)
 		(pin "6"
 			(uuid "2fa01441-5054-4c94-a4d2-6c322fca90a0")
-		)
-		(pin "7"
-			(uuid "676be30d-0576-4c72-af72-0382d7aa1fae")
 		)
 		(instances
 			(project "loquat-pcb"
