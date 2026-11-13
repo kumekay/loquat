@@ -1763,6 +1763,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "AUX header J9. Holes at 2.54 mm. Two uses:\nT14 mouse keys: keys 1 to 5 on pins 1 to 5, GND on pin 6.\nLegion Go fingerprint sensor: pin 2 WAKE, pin 3 RST,\npin 4 sensor TX, pin 5 sensor RX, pin 6 GND, pin 7 VIN."
+		(exclude_from_sim no)
+		(at 41.91 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "862add0e-ea7d-454c-bea8-a403e25abb0e")
+	)
 	(no_connect
 		(at 72.39 69.85)
 		(uuid "6780b35a-29a6-577b-97ad-2fbe0fd42450")
@@ -1809,16 +1820,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 87.63) (xy 161.29 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15986088-277b-51b7-8e26-0c608a4bcbe4")
-	)
-	(wire
-		(pts
 			(xy 165.1 121.92) (xy 160.02 121.92)
 		)
 		(stroke
@@ -1826,6 +1827,16 @@
 			(type default)
 		)
 		(uuid "1fc80665-053f-5e14-9ae7-28b146337aae")
+	)
+	(wire
+		(pts
+			(xy 127 124.46) (xy 121.92 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202fdd39-88cf-44ac-a8be-2e89baf88340")
 	)
 	(wire
 		(pts
@@ -1846,6 +1857,16 @@
 			(type default)
 		)
 		(uuid "21f8edd1-0f57-5411-893a-ea1266202495")
+	)
+	(wire
+		(pts
+			(xy 54.61 116.84) (xy 49.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ff06c8-c7ca-4842-81c6-83641322eb91")
 	)
 	(wire
 		(pts
@@ -1909,6 +1930,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 106.68) (xy 49.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f514ec-69f4-4f3e-9960-c7b276dfd1fa")
+	)
+	(wire
+		(pts
 			(xy 125.73 58.42) (xy 125.73 60.96)
 		)
 		(stroke
@@ -1916,6 +1947,26 @@
 			(type default)
 		)
 		(uuid "39a0d9ca-8ffc-5063-9739-43ea62b6373a")
+	)
+	(wire
+		(pts
+			(xy 127 85.09) (xy 124.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9588e4-a41c-4f35-90f8-818a69332698")
+	)
+	(wire
+		(pts
+			(xy 72.39 80.01) (xy 80.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b59cc3b-a077-4974-97b0-593187109164")
 	)
 	(wire
 		(pts
@@ -1939,6 +1990,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 121.92) (xy 52.07 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45145c5d-0901-4c57-b2ca-60776199da9a")
+	)
+	(wire
+		(pts
 			(xy 125.73 50.8) (xy 125.73 49.53)
 		)
 		(stroke
@@ -1946,6 +2007,16 @@
 			(type default)
 		)
 		(uuid "55856ea1-6bd4-5469-b031-7714e4c0b778")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 124.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55d9e0b3-311b-4d8b-81e6-174967c8b17b")
 	)
 	(wire
 		(pts
@@ -1969,6 +2040,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 87.63) (xy 80.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68dd02eb-24e4-4e1c-9dbc-296307581450")
+	)
+	(wire
+		(pts
 			(xy 95.25 58.42) (xy 95.25 60.96)
 		)
 		(stroke
@@ -1976,6 +2057,16 @@
 			(type default)
 		)
 		(uuid "6b70dfe3-13da-52d5-897f-4897f6854f0c")
+	)
+	(wire
+		(pts
+			(xy 54.61 114.3) (xy 49.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ccf8c22-43b2-4e4a-9c58-f8b046d4f5dc")
 	)
 	(wire
 		(pts
@@ -2009,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 74.93) (xy 76.2 77.47)
+			(xy 76.2 74.93) (xy 76.2 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2029,6 +2120,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 109.22) (xy 49.53 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bad7407-6b7c-4259-8ded-f8a09952c4c7")
+	)
+	(wire
+		(pts
 			(xy 165.1 116.84) (xy 161.29 116.84)
 		)
 		(stroke
@@ -2036,6 +2137,26 @@
 			(type default)
 		)
 		(uuid "7bf6153b-b888-552e-bb5c-14c68ec232dc")
+	)
+	(wire
+		(pts
+			(xy 72.39 85.09) (xy 80.01 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6015d6-f2f2-49d2-8eab-135cbe81fd58")
+	)
+	(wire
+		(pts
+			(xy 127 119.38) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82427613-bd1b-4ab1-94da-40f6fa7fcafb")
 	)
 	(wire
 		(pts
@@ -2056,6 +2177,16 @@
 			(type default)
 		)
 		(uuid "8c7f16e2-a9cd-5006-b128-1867a0b59713")
+	)
+	(wire
+		(pts
+			(xy 46.99 85.09) (xy 41.91 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdfc55a-87f1-4c50-b76b-4509a9811eb3")
 	)
 	(wire
 		(pts
@@ -2089,13 +2220,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 152.4) (xy 161.29 154.94)
+			(xy 54.61 119.38) (xy 52.07 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95e37a0a-82d3-5f53-a883-4a6dc9dd772a")
+		(uuid "99378d6b-b5ad-4a38-8714-4134a0a87f0a")
 	)
 	(wire
 		(pts
@@ -2109,13 +2240,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 116.84) (xy 161.29 119.38)
+			(xy 127 114.3) (xy 124.46 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1c21a6e-2457-58c4-8ea8-8dc6cda7699b")
+		(uuid "9f7165fc-77b6-4039-95cb-24b44368f793")
 	)
 	(wire
 		(pts
@@ -2139,6 +2270,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 121.92) (xy 121.92 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab455781-fca2-4de7-97be-d23ad0556378")
+	)
+	(wire
+		(pts
 			(xy 165.1 124.46) (xy 160.02 124.46)
 		)
 		(stroke
@@ -2156,6 +2297,16 @@
 			(type default)
 		)
 		(uuid "aeaac569-89a9-5795-be2a-581f1b8cb979")
+	)
+	(wire
+		(pts
+			(xy 127 90.17) (xy 121.92 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef3df35-cc66-416f-b8a1-88deb1b2b40c")
 	)
 	(wire
 		(pts
@@ -2189,6 +2340,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ffa2a2-6c4c-4913-995d-f331d22b2588")
+	)
+	(wire
+		(pts
 			(xy 165.1 114.3) (xy 161.29 114.3)
 		)
 		(stroke
@@ -2196,6 +2357,16 @@
 			(type default)
 		)
 		(uuid "cccb7d52-081c-5ba2-998b-15849bbe271c")
+	)
+	(wire
+		(pts
+			(xy 127 92.71) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdccbaa3-f4ec-43e2-843d-52a0c9705030")
 	)
 	(wire
 		(pts
@@ -2216,6 +2387,16 @@
 			(type default)
 		)
 		(uuid "e28a5800-7526-5612-8f33-8d56d86b2ed5")
+	)
+	(wire
+		(pts
+			(xy 72.39 82.55) (xy 80.01 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d927bc-eb92-4c85-9716-efb6b8a35762")
 	)
 	(wire
 		(pts
@@ -2246,6 +2427,36 @@
 			(type default)
 		)
 		(uuid "f64ca783-5b33-5116-a96f-9c2dec687dd5")
+	)
+	(wire
+		(pts
+			(xy 127 95.25) (xy 121.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f900f9a9-22d9-4631-bcc9-1e7aaf3f84d4")
+	)
+	(wire
+		(pts
+			(xy 54.61 111.76) (xy 49.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fada5853-b424-4580-804f-5eab40b38e18")
+	)
+	(label "AUX3"
+		(at 49.53 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "078f5abb-6f8d-419c-8f2c-461458910d62")
 	)
 	(label "VBAT"
 		(at 77.47 90.17 0)
@@ -2297,6 +2508,16 @@
 		)
 		(uuid "244b2a1b-16ff-5f74-bf70-19ca72dbc8fc")
 	)
+	(label "AUX1"
+		(at 49.53 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34ee1648-f5e1-4be6-991f-7ad50ca16c76")
+	)
 	(label "VBAT"
 		(at 49.53 139.7 180)
 		(effects
@@ -2337,6 +2558,16 @@
 		)
 		(uuid "68b9a7a1-e19e-5daa-885a-4fa1ca31519d")
 	)
+	(label "INT_L"
+		(at 121.92 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "705e4e6f-43c6-4add-ad24-c650e3e43f71")
+	)
 	(label "INT_R"
 		(at 125.73 60.96 0)
 		(effects
@@ -2347,6 +2578,16 @@
 		)
 		(uuid "77073f34-cdd7-5fcd-be61-5063258cb221")
 	)
+	(label "AUX1"
+		(at 41.91 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78e01f14-13f1-436c-865f-86516ac3f091")
+	)
 	(label "INT_R"
 		(at 160.02 124.46 180)
 		(effects
@@ -2356,6 +2597,16 @@
 			(justify right)
 		)
 		(uuid "8a6175a6-0315-5edf-bce1-6745e6ac8920")
+	)
+	(label "AUX4"
+		(at 80.01 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97fb9b14-b89a-425e-bf34-5387ec6cbfd9")
 	)
 	(label "TP_NRST"
 		(at 41.91 77.47 180)
@@ -2377,6 +2628,66 @@
 		)
 		(uuid "a9b6ba8d-eeda-5e06-a24b-151d87b30b2a")
 	)
+	(label "AUX2"
+		(at 80.01 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3e60ed9-6dfa-4739-a30b-80f17a2e4954")
+	)
+	(label "AUX4"
+		(at 49.53 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b87c9561-2f85-4547-a92c-aeb7c202b70c")
+	)
+	(label "AUX5"
+		(at 49.53 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cec9eb43-51bd-44c2-9005-746027cd9ece")
+	)
+	(label "AUX2"
+		(at 49.53 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcd102d1-1b42-434e-af75-330990e26620")
+	)
+	(label "INT_R"
+		(at 121.92 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd544c04-5530-4923-ae3d-d717de03ef4e")
+	)
+	(label "AUX5"
+		(at 80.01 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea32b071-66b5-4c52-9599-100dd1cb2237")
+	)
 	(label "TP_RDY"
 		(at 160.02 160.02 180)
 		(effects
@@ -2386,6 +2697,16 @@
 			(justify right)
 		)
 		(uuid "ec793914-180c-50f2-818b-8f23ab193e34")
+	)
+	(label "AUX3"
+		(at 80.01 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6eaef14-a9b5-4124-ab07-9dc5da6d879e")
 	)
 	(global_label "SDA"
 		(shape bidirectional)
@@ -2465,6 +2786,50 @@
 		(uuid "438b8892-56b4-55fd-8c8f-97a9b0a238c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 121.92 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e9a8a39-8fa6-4604-951d-70cc2fb3b511")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.92 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 121.92 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67bf24db-4f1b-402a-88b7-59136ca2e226")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.92 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2587,6 +2952,28 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
+		(at 121.92 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9eb8bd7-679c-4903-becc-04b62a2f68eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.92 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape bidirectional)
 		(at 160.02 92.71 180)
 		(effects
 			(font
@@ -2603,6 +2990,109 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 121.92 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7668841-3d28-41c9-acc9-469bd103e104")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.92 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02f3b746-ea39-492a-8546-910f2f61f2b5")
+		(property "Reference" "#PWR0019"
+			(at 52.07 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5196c4b3-012c-4d52-81db-9db346fc8b93")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
+					(reference "#PWR0019")
+					(unit 1)
 				)
 			)
 		)
@@ -2852,8 +3342,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 161.29 154.94 0)
+		(lib_id "Connector_Generic:Conn_01x07")
+		(at 59.69 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2861,10 +3351,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "200f9b3e-2ba7-5bea-a1b7-4655bb61220b")
-		(property "Reference" "#PWR0013"
-			(at 163.83 152.4 0)
-			(hide yes)
+		(uuid "1e934741-614b-48d4-8188-b9b099d61e76")
+		(property "Reference" "J9"
+			(at 62.23 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2874,9 +3363,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 163.83 154.94 0)
-			(hide yes)
+		(property "Value" "AUX_7p"
+			(at 62.23 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2887,7 +3375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 154.94 0)
+			(at 59.69 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2899,6 +3387,83 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 59.69 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Hole row for mouse keys or fingerprint sensor"
+			(at 59.69 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4e834020-cea2-405b-a4b7-584d6d043918")
+		)
+		(pin "2"
+			(uuid "adb527c7-0a87-4821-992d-ff2911631aa4")
+		)
+		(pin "3"
+			(uuid "ca7c29d5-da98-4a2b-8237-93993d967561")
+		)
+		(pin "4"
+			(uuid "7c822fc8-fc0e-4ae4-b802-ae668e009d26")
+		)
+		(pin "5"
+			(uuid "2c68d3f3-45c6-4af4-9314-971f54a893aa")
+		)
+		(pin "6"
+			(uuid "2fa01441-5054-4c94-a4d2-6c322fca90a0")
+		)
+		(pin "7"
+			(uuid "676be30d-0576-4c72-af72-0382d7aa1fae")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 152.4 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "200f9b3e-2ba7-5bea-a1b7-4655bb61220b")
+		(property "Reference" "#PWR0013"
+			(at 163.83 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
 			(at 161.29 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -2910,8 +3475,32 @@
 				(justify left)
 			)
 		)
+		(property "Footprint" ""
+			(at 161.29 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Description" ""
-			(at 161.29 154.94 0)
+			(at 161.29 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3015,7 +3604,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 90.17 0)
+		(at 161.29 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3025,18 +3614,6 @@
 		(dnp no)
 		(uuid "268b7c74-62d8-574b-9c2b-28b15b791afd")
 		(property "Reference" "#PWR0009"
-			(at 163.83 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
 			(at 163.83 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3048,8 +3625,20 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "GND"
 			(at 161.29 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3061,7 +3650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 90.17 0)
+			(at 161.29 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3073,7 +3662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 90.17 0)
+			(at 161.29 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3089,6 +3678,261 @@
 			(project "loquat-pcb"
 				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
 					(reference "#PWR0009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 132.08 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48176819-16d5-4c42-966c-fa0d84d97b91")
+		(property "Reference" "J8"
+			(at 134.62 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HOLES_wing_5p"
+			(at 134.62 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Hole row to right wing, in parallel with J2"
+			(at 132.08 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "fa93648f-8bfa-43c9-9265-9de8e5702efb")
+		)
+		(pin "2"
+			(uuid "1ce53eff-7911-4e58-beb6-58cfb071e5d0")
+		)
+		(pin "3"
+			(uuid "6dfded53-0526-428a-ab76-aff28113be20")
+		)
+		(pin "4"
+			(uuid "e3fa48c1-72c0-4914-ad0a-cdb9a107d8c7")
+		)
+		(pin "5"
+			(uuid "4ff9bb6e-fb8d-4385-a5bb-fc56427cd21e")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 124.46 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4cfbcad9-d011-4819-b264-fb0d0fd08e00")
+		(property "Reference" "#PWR0017"
+			(at 124.46 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 124.46 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c32f3d34-33a3-4365-a42c-bc7a07ff6bdd")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
+					(reference "#PWR0017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 124.46 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c4b53d6-29d9-495e-958d-f0996cf0132b")
+		(property "Reference" "#PWR0015"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac2ce1e8-c19a-4c43-8b3c-1a260ee1ac7d")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
+					(reference "#PWR0015")
 					(unit 1)
 				)
 			)
@@ -3177,7 +4021,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 77.47 0)
+		(at 76.2 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3187,7 +4031,7 @@
 		(dnp no)
 		(uuid "65d0acf3-90df-574a-b3d8-7cb6a048425e")
 		(property "Reference" "#PWR0002"
-			(at 78.74 74.93 0)
+			(at 78.74 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3199,7 +4043,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 77.47 0)
+			(at 78.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3211,7 +4055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 77.47 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3223,7 +4067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 77.47 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3235,7 +4079,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 77.47 0)
+			(at 76.2 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3435,7 +4279,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 119.38 0)
+		(at 161.29 116.84 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3445,18 +4289,6 @@
 		(dnp no)
 		(uuid "7b4c6403-cf6b-5a77-8b6a-09e09c712aec")
 		(property "Reference" "#PWR0011"
-			(at 163.83 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
 			(at 163.83 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3468,8 +4300,20 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "GND"
 			(at 161.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3481,7 +4325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 119.38 0)
+			(at 161.29 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3493,7 +4337,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 119.38 0)
+			(at 161.29 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3509,6 +4353,87 @@
 			(project "loquat-pcb"
 				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
 					(reference "#PWR0011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 52.07 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ede2cae-6e7c-4339-8c9e-1a9c8d5637d1")
+		(property "Reference" "#PWR0020"
+			(at 52.07 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 52.07 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ad636fa-8dad-4130-80a7-3c23d03cbfe8")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
+					(reference "#PWR0020")
 					(unit 1)
 				)
 			)
@@ -4232,6 +5157,87 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 124.46 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d28aa81b-3b8e-40ac-97b9-595b67afdc76")
+		(property "Reference" "#PWR0016"
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d6737d5-97af-47cd-8cef-e31ff39f736a")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
+					(reference "#PWR0016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 125.73 54.61 0)
 		(unit 1)
@@ -4389,6 +5395,180 @@
 			(project "loquat-pcb"
 				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
 					(reference "#PWR0004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8ba6cb8-c64d-46c9-8147-fba11da91393")
+		(property "Reference" "#PWR0018"
+			(at 124.46 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da00d3b4-f645-4f74-80f4-b8a68ebdfdd7")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
+					(reference "#PWR0018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 132.08 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed45c26f-04d7-4b5e-952a-a51dcfe84f11")
+		(property "Reference" "J7"
+			(at 134.62 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HOLES_wing_5p"
+			(at 134.62 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Hole row to left wing, in parallel with J1"
+			(at 132.08 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1f58b751-3af7-4a7b-9724-d488aef88d9b")
+		)
+		(pin "2"
+			(uuid "be212c36-0734-4b9b-8550-0315fbff601d")
+		)
+		(pin "3"
+			(uuid "cd5bab32-be95-41c5-b867-5a6fa64c85e7")
+		)
+		(pin "4"
+			(uuid "8bd822f2-593f-4651-af38-30044311787d")
+		)
+		(pin "5"
+			(uuid "ad120e9c-89ad-4326-8ea8-beff71768094")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4668,1216 +5848,6 @@
 				)
 			)
 		)
-	)
-	(wire
-		(pts
-			(xy 46.99 85.09) (xy 41.91 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cdfc55a-87f1-4c50-b76b-4509a9811eb3")
-	)
-	(label "AUX1"
-		(at 41.91 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "78e01f14-13f1-436c-865f-86516ac3f091")
-	)
-	(wire
-		(pts
-			(xy 72.39 80.01) (xy 80.01 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b59cc3b-a077-4974-97b0-593187109164")
-	)
-	(label "AUX2"
-		(at 80.01 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3e60ed9-6dfa-4739-a30b-80f17a2e4954")
-	)
-	(wire
-		(pts
-			(xy 72.39 82.55) (xy 80.01 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3d927bc-eb92-4c85-9716-efb6b8a35762")
-	)
-	(label "AUX3"
-		(at 80.01 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f6eaef14-a9b5-4124-ab07-9dc5da6d879e")
-	)
-	(wire
-		(pts
-			(xy 72.39 85.09) (xy 80.01 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f6015d6-f2f2-49d2-8eab-135cbe81fd58")
-	)
-	(label "AUX4"
-		(at 80.01 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97fb9b14-b89a-425e-bf34-5387ec6cbfd9")
-	)
-	(wire
-		(pts
-			(xy 72.39 87.63) (xy 80.01 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68dd02eb-24e4-4e1c-9dbc-296307581450")
-	)
-	(label "AUX5"
-		(at 80.01 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea32b071-66b5-4c52-9599-100dd1cb2237")
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 132.08 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ed45c26f-04d7-4b5e-952a-a51dcfe84f11")
-		(property "Reference" "J7"
-			(at 134.62 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HOLES_wing_5p"
-			(at 134.62 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Hole row to left wing, in parallel with J1"
-			(at 132.08 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "1f58b751-3af7-4a7b-9724-d488aef88d9b")
-		)
-		(pin "2"
-			(uuid "be212c36-0734-4b9b-8550-0315fbff601d")
-		)
-		(pin "3"
-			(uuid "cd5bab32-be95-41c5-b867-5a6fa64c85e7")
-		)
-		(pin "4"
-			(uuid "8bd822f2-593f-4651-af38-30044311787d")
-		)
-		(pin "5"
-			(uuid "ad120e9c-89ad-4326-8ea8-beff71768094")
-		)
-		(instances
-			(project "loquat-pcb"
-				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 127 85.09) (xy 124.46 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a9588e4-a41c-4f35-90f8-818a69332698")
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 124.46 85.09 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5c4b53d6-29d9-495e-958d-f0996cf0132b")
-		(property "Reference" "#PWR0015"
-			(at 124.46 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 124.46 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ac2ce1e8-c19a-4c43-8b3c-1a260ee1ac7d")
-		)
-		(instances
-			(project "loquat-pcb"
-				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
-					(reference "#PWR0015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 127 87.63) (xy 124.46 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3ffa2a2-6c4c-4913-995d-f331d22b2588")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 87.63 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d28aa81b-3b8e-40ac-97b9-595b67afdc76")
-		(property "Reference" "#PWR0016"
-			(at 124.46 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d6737d5-97af-47cd-8cef-e31ff39f736a")
-		)
-		(instances
-			(project "loquat-pcb"
-				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
-					(reference "#PWR0016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 127 90.17) (xy 121.92 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aef3df35-cc66-416f-b8a1-88deb1b2b40c")
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 121.92 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e7668841-3d28-41c9-acc9-469bd103e104")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 127 92.71) (xy 121.92 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdccbaa3-f4ec-43e2-843d-52a0c9705030")
-	)
-	(global_label "SCL"
-		(shape bidirectional)
-		(at 121.92 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9eb8bd7-679c-4903-becc-04b62a2f68eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 127 95.25) (xy 121.92 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f900f9a9-22d9-4631-bcc9-1e7aaf3f84d4")
-	)
-	(label "INT_L"
-		(at 121.92 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "705e4e6f-43c6-4add-ad24-c650e3e43f71")
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 132.08 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "48176819-16d5-4c42-966c-fa0d84d97b91")
-		(property "Reference" "J8"
-			(at 134.62 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HOLES_wing_5p"
-			(at 134.62 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Hole row to right wing, in parallel with J2"
-			(at 132.08 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "fa93648f-8bfa-43c9-9265-9de8e5702efb")
-		)
-		(pin "2"
-			(uuid "1ce53eff-7911-4e58-beb6-58cfb071e5d0")
-		)
-		(pin "3"
-			(uuid "6dfded53-0526-428a-ab76-aff28113be20")
-		)
-		(pin "4"
-			(uuid "e3fa48c1-72c0-4914-ad0a-cdb9a107d8c7")
-		)
-		(pin "5"
-			(uuid "4ff9bb6e-fb8d-4385-a5bb-fc56427cd21e")
-		)
-		(instances
-			(project "loquat-pcb"
-				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 127 114.3) (xy 124.46 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f7165fc-77b6-4039-95cb-24b44368f793")
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 124.46 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4cfbcad9-d011-4819-b264-fb0d0fd08e00")
-		(property "Reference" "#PWR0017"
-			(at 124.46 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 124.46 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c32f3d34-33a3-4365-a42c-bc7a07ff6bdd")
-		)
-		(instances
-			(project "loquat-pcb"
-				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
-					(reference "#PWR0017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 127 116.84) (xy 124.46 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55d9e0b3-311b-4d8b-81e6-174967c8b17b")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 116.84 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e8ba6cb8-c64d-46c9-8147-fba11da91393")
-		(property "Reference" "#PWR0018"
-			(at 124.46 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da00d3b4-f645-4f74-80f4-b8a68ebdfdd7")
-		)
-		(instances
-			(project "loquat-pcb"
-				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
-					(reference "#PWR0018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 127 119.38) (xy 121.92 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82427613-bd1b-4ab1-94da-40f6fa7fcafb")
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 121.92 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67bf24db-4f1b-402a-88b7-59136ca2e226")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 127 121.92) (xy 121.92 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab455781-fca2-4de7-97be-d23ad0556378")
-	)
-	(global_label "SCL"
-		(shape bidirectional)
-		(at 121.92 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5e9a8a39-8fa6-4604-951d-70cc2fb3b511")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 127 124.46) (xy 121.92 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "202fdd39-88cf-44ac-a8be-2e89baf88340")
-	)
-	(label "INT_R"
-		(at 121.92 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dd544c04-5530-4923-ae3d-d717de03ef4e")
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x07")
-		(at 59.69 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e934741-614b-48d4-8188-b9b099d61e76")
-		(property "Reference" "J9"
-			(at 62.23 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AUX_7p"
-			(at 62.23 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Hole row for mouse keys or fingerprint sensor"
-			(at 59.69 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "4e834020-cea2-405b-a4b7-584d6d043918")
-		)
-		(pin "2"
-			(uuid "adb527c7-0a87-4821-992d-ff2911631aa4")
-		)
-		(pin "3"
-			(uuid "ca7c29d5-da98-4a2b-8237-93993d967561")
-		)
-		(pin "4"
-			(uuid "7c822fc8-fc0e-4ae4-b802-ae668e009d26")
-		)
-		(pin "5"
-			(uuid "2c68d3f3-45c6-4af4-9314-971f54a893aa")
-		)
-		(pin "6"
-			(uuid "2fa01441-5054-4c94-a4d2-6c322fca90a0")
-		)
-		(pin "7"
-			(uuid "676be30d-0576-4c72-af72-0382d7aa1fae")
-		)
-		(instances
-			(project "loquat-pcb"
-				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 54.61 106.68) (xy 49.53 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38f514ec-69f4-4f3e-9960-c7b276dfd1fa")
-	)
-	(label "AUX1"
-		(at 49.53 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34ee1648-f5e1-4be6-991f-7ad50ca16c76")
-	)
-	(wire
-		(pts
-			(xy 54.61 109.22) (xy 49.53 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bad7407-6b7c-4259-8ded-f8a09952c4c7")
-	)
-	(label "AUX2"
-		(at 49.53 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dcd102d1-1b42-434e-af75-330990e26620")
-	)
-	(wire
-		(pts
-			(xy 54.61 111.76) (xy 49.53 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fada5853-b424-4580-804f-5eab40b38e18")
-	)
-	(label "AUX3"
-		(at 49.53 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "078f5abb-6f8d-419c-8f2c-461458910d62")
-	)
-	(wire
-		(pts
-			(xy 54.61 114.3) (xy 49.53 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ccf8c22-43b2-4e4a-9c58-f8b046d4f5dc")
-	)
-	(label "AUX4"
-		(at 49.53 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b87c9561-2f85-4547-a92c-aeb7c202b70c")
-	)
-	(wire
-		(pts
-			(xy 54.61 116.84) (xy 49.53 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24ff06c8-c7ca-4842-81c6-83641322eb91")
-	)
-	(label "AUX5"
-		(at 49.53 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cec9eb43-51bd-44c2-9005-746027cd9ece")
-	)
-	(wire
-		(pts
-			(xy 54.61 119.38) (xy 52.07 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99378d6b-b5ad-4a38-8714-4134a0a87f0a")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 119.38 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "02f3b746-ea39-492a-8546-910f2f61f2b5")
-		(property "Reference" "#PWR0019"
-			(at 52.07 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5196c4b3-012c-4d52-81db-9db346fc8b93")
-		)
-		(instances
-			(project "loquat-pcb"
-				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
-					(reference "#PWR0019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 54.61 121.92) (xy 52.07 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45145c5d-0901-4c57-b2ca-60776199da9a")
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 52.07 121.92 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7ede2cae-6e7c-4339-8c9e-1a9c8d5637d1")
-		(property "Reference" "#PWR0020"
-			(at 52.07 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 52.07 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ad636fa-8dad-4130-80a7-3c23d03cbfe8")
-		)
-		(instances
-			(project "loquat-pcb"
-				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e"
-					(reference "#PWR0020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(text "AUX header J9. Holes at 2.54 mm. Two uses:\nT14 mouse keys: keys 1 to 5 on pins 1 to 5, GND on pin 6.\nLegion Go fingerprint sensor: pin 2 WAKE, pin 3 RST,\npin 4 sensor TX, pin 5 sensor RX, pin 6 GND, pin 7 VIN."
-		(exclude_from_sim no)
-		(at 41.91 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "862add0e-ea7d-454c-bea8-a403e25abb0e")
 	)
 	(sheet
 		(at 219.71 135.89)
