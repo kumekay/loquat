@@ -9114,4 +9114,1131 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 80.01 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00bed2c9-404b-43eb-b6eb-4a18a6b4022a")
+		(property "Reference" "J10"
+			(at 82.55 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HOLES_hub_5p"
+			(at 82.55 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Hole row to hub, in parallel with J5"
+			(at 80.01 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b11a7935-7747-403a-8712-9473e801e662")
+		)
+		(pin "2"
+			(uuid "ab98acaa-e229-4355-a8ff-73756300ff4a")
+		)
+		(pin "3"
+			(uuid "0de56708-5ce8-4dfd-b707-475afaa81eaf")
+		)
+		(pin "4"
+			(uuid "d0c486f4-f730-42f7-98c5-7160158a86bf")
+		)
+		(pin "5"
+			(uuid "421b8143-5bae-4898-87a7-8e7c723b0594")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/4b72715c-aa5e-5003-b4f2-56beb89e7eb0"
+					(reference "J10")
+					(unit 1)
+				)
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/a858878f-750f-59ab-a790-ce4f06296ca2"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 74.93 54.61) (xy 72.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0609cce1-e121-4674-bd47-be1275f5323a")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 72.39 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "334c9bd6-0166-48f8-9fca-90dccd7f6199")
+		(property "Reference" "#PWR1036"
+			(at 72.39 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 72.39 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4831deb5-8689-47e5-94c9-de1fe35c06e3")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/4b72715c-aa5e-5003-b4f2-56beb89e7eb0"
+					(reference "#PWR1036")
+					(unit 1)
+				)
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/a858878f-750f-59ab-a790-ce4f06296ca2"
+					(reference "#PWR2036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 74.93 57.15) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db08d70c-2997-4165-bf6d-c713efc30213")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aaa2e693-d9e4-4926-842d-7265867fa0e5")
+		(property "Reference" "#PWR1037"
+			(at 72.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daf362e1-3c70-40ab-a388-06546e9e80e7")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/4b72715c-aa5e-5003-b4f2-56beb89e7eb0"
+					(reference "#PWR1037")
+					(unit 1)
+				)
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/a858878f-750f-59ab-a790-ce4f06296ca2"
+					(reference "#PWR2037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 74.93 59.69) (xy 69.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9519427-d413-4b4b-b513-00f502869bf8")
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 69.85 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0960d358-5ea6-422a-a2a7-5482b893a6fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 74.93 62.23) (xy 69.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcd745b-e2d4-43e9-97d5-9921e1185ab0")
+	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 69.85 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3dc21af-556c-4805-8e1c-2ea4f75a7c44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 74.93 64.77) (xy 69.85 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4e5d3c-57c2-4b8d-b03d-10eee5099122")
+	)
+	(hierarchical_label "INT"
+		(shape output)
+		(at 69.85 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9d25737-7e35-4afc-baa5-1b1d66204609")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 44.45 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d830c1e-7e78-40ec-a119-9d7f7461171e")
+		(property "Reference" "J12"
+			(at 46.99 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FFC_outer_5p"
+			(at 46.99 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Outer edge FFC: 3V3 GND SDA SCL INT"
+			(at 44.45 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1121e3f9-cdb5-4769-adf5-abbaaff86f9b")
+		)
+		(pin "2"
+			(uuid "c4b53f78-c91f-4c37-8d2d-b5c192ac3e66")
+		)
+		(pin "3"
+			(uuid "1c38c7a6-4693-4a8d-be41-81c55ce45a73")
+		)
+		(pin "4"
+			(uuid "1454829f-ccfd-4876-9700-350350542f3e")
+		)
+		(pin "5"
+			(uuid "127a1e3d-8172-427f-9264-db423ac2eb6e")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/4b72715c-aa5e-5003-b4f2-56beb89e7eb0"
+					(reference "J12")
+					(unit 1)
+				)
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/a858878f-750f-59ab-a790-ce4f06296ca2"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 39.37 152.4) (xy 36.83 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff296dda-a0e9-4abe-b9c2-b0e2130f472d")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 36.83 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2db68f1-af9e-4492-bc2a-458d7a638a63")
+		(property "Reference" "#PWR1038"
+			(at 36.83 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 36.83 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54d19e03-14c6-4350-b324-608eadd0737e")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/4b72715c-aa5e-5003-b4f2-56beb89e7eb0"
+					(reference "#PWR1038")
+					(unit 1)
+				)
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/a858878f-750f-59ab-a790-ce4f06296ca2"
+					(reference "#PWR2038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 39.37 154.94) (xy 36.83 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d706375-40f4-4ddf-bd64-249ea67d012d")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 154.94 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f1e90c5-7e0a-4bbb-970f-e366ba1e9bec")
+		(property "Reference" "#PWR1039"
+			(at 36.83 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4917e8c-da91-4814-983f-511150648539")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/4b72715c-aa5e-5003-b4f2-56beb89e7eb0"
+					(reference "#PWR1039")
+					(unit 1)
+				)
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/a858878f-750f-59ab-a790-ce4f06296ca2"
+					(reference "#PWR2039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 39.37 157.48) (xy 34.29 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231945c6-7adc-4121-988d-147dd493d7ea")
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 34.29 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45707c2b-acd0-4dd5-aaec-b279f84defe8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.29 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 39.37 160.02) (xy 34.29 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14b91c4-1a85-47b4-be04-2be0a3133055")
+	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 34.29 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82393003-134f-4076-b53f-164824ae4612")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.29 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 39.37 162.56) (xy 34.29 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dc89ee-6418-4c1b-a2b2-dd3c29385d60")
+	)
+	(hierarchical_label "INT"
+		(shape output)
+		(at 34.29 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83751f50-290c-45e5-83b9-b5af96355617")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 80.01 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79de3834-27ec-4a94-950d-71654009c708")
+		(property "Reference" "J14"
+			(at 82.55 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HOLES_outer_5p"
+			(at 82.55 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Outer edge hole row, in parallel with J12"
+			(at 80.01 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "7773f6eb-02ae-4a7c-966a-b52738722f9e")
+		)
+		(pin "2"
+			(uuid "8cc8d7cc-b016-4eac-9158-10956f116366")
+		)
+		(pin "3"
+			(uuid "d7d76501-547d-4a47-ad74-c9c2e06c28fc")
+		)
+		(pin "4"
+			(uuid "7ac42ab7-5958-499c-8642-ed1b885fa227")
+		)
+		(pin "5"
+			(uuid "8d856b08-d6de-4cdc-8fbc-f41e24645f79")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/4b72715c-aa5e-5003-b4f2-56beb89e7eb0"
+					(reference "J14")
+					(unit 1)
+				)
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/a858878f-750f-59ab-a790-ce4f06296ca2"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 74.93 152.4) (xy 72.39 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aceb5460-4a33-47c1-9e23-b5798c53f4dd")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 72.39 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da2c2cb9-3a68-42fe-a442-5a9ff54927ab")
+		(property "Reference" "#PWR1040"
+			(at 72.39 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 72.39 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78e3fdd5-3fd1-4171-b632-cefcff5b512f")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/4b72715c-aa5e-5003-b4f2-56beb89e7eb0"
+					(reference "#PWR1040")
+					(unit 1)
+				)
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/a858878f-750f-59ab-a790-ce4f06296ca2"
+					(reference "#PWR2040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 74.93 154.94) (xy 72.39 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0f5610-7ba9-4584-944f-a5b1e783f53e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 154.94 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1da0370f-2ec0-4332-a0b3-bb3ad944dc85")
+		(property "Reference" "#PWR1041"
+			(at 72.39 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3ebe7d3-43a7-4693-a578-5912a193f74b")
+		)
+		(instances
+			(project "loquat-pcb"
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/4b72715c-aa5e-5003-b4f2-56beb89e7eb0"
+					(reference "#PWR1041")
+					(unit 1)
+				)
+				(path "/d3adab89-eee8-4ded-bab7-48f0ca8b443e/a858878f-750f-59ab-a790-ce4f06296ca2"
+					(reference "#PWR2041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 74.93 157.48) (xy 69.85 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af781f61-3031-43a7-8927-d7787badfbf5")
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 69.85 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ece881b-58ce-4044-8f4f-789e28297e00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 74.93 160.02) (xy 69.85 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e228db-b8d9-4112-adfa-f4cce4338d39")
+	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 69.85 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd116b31-9911-45f6-b848-1c4ce3a2779a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 74.93 162.56) (xy 69.85 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c6aabc-d222-4448-a745-be83fd0a7f34")
+	)
+	(hierarchical_label "INT"
+		(shape output)
+		(at 69.85 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9af702a6-3eb5-4379-9cac-4806f4bee41a")
+	)
+	(text "Outer edge link. For a later split variant."
+		(exclude_from_sim no)
+		(at 26.67 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e6502d2c-37ab-4e02-bcef-048b3d562f22")
+	)
 )
