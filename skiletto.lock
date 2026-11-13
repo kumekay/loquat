@@ -4,61 +4,61 @@ version = 1
 name = 'bom'
 source = 'git@github.com:aklofas/kicad-happy.git'
 path = 'skills/bom'
-commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
-hash = 'sha256:e1493ec9054837b650b4a8fadb1e066d37768139ef62258a8ee486bd9e2523fa'
+commit = '7d9d4d9fef87ac2d3eb16cfc5cdc9a0869f417f4'
+hash = 'sha256:e20c59ce17c9185978fbb1107cf2d9f29da1c8a4d6862411402776220f4e2d46'
 
 [[skill]]
 name = 'datasheets'
 source = 'git@github.com:aklofas/kicad-happy.git'
 path = 'skills/datasheets'
-commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
-hash = 'sha256:bbb1f7ce5490795b23725f37abe7a0527a4fdb9f13b30eebb58a7181655b3b1d'
+commit = '7d9d4d9fef87ac2d3eb16cfc5cdc9a0869f417f4'
+hash = 'sha256:3dafa1cc08f0b590be4906b2a8730e113aa72e4467e44b05c13d6cbe4be13413'
 
 [[skill]]
 name = 'emc'
 source = 'git@github.com:aklofas/kicad-happy.git'
 path = 'skills/emc'
-commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
-hash = 'sha256:0994687b54efc0b9846b80350dbe5c1d039a27e4caf2f69267004487ffc2d38f'
+commit = '7d9d4d9fef87ac2d3eb16cfc5cdc9a0869f417f4'
+hash = 'sha256:297233258bc0f746ccfff5e05155dd27e9336529ae1ef9eef2cc903a7c03e0d5'
 
 [[skill]]
 name = 'jlcpcb'
 source = 'git@github.com:aklofas/kicad-happy.git'
 path = 'skills/jlcpcb'
-commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
-hash = 'sha256:f64366b3db0f3452af5b2a39f0d32d582dd5dbff9196c33213f8e0a4ac835381'
+commit = '7d9d4d9fef87ac2d3eb16cfc5cdc9a0869f417f4'
+hash = 'sha256:432a699dfd582ab5b9a0c4de203c2b4c5006e8fd2112958b066dcf9c897d28f6'
 
 [[skill]]
 name = 'kicad'
 source = 'git@github.com:aklofas/kicad-happy.git'
 path = 'skills/kicad'
-commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
-hash = 'sha256:0572e27b55d4f44a5fd818e56f9502fb9fe8a55af8502f628d8c60957042d2e7'
+commit = '7d9d4d9fef87ac2d3eb16cfc5cdc9a0869f417f4'
+hash = 'sha256:9f1938d9911b57dccda2d0b2d2a79a0181910e46a17fa1b6adc0d08dda57c3d1'
 
 [[skill]]
 name = 'lcsc'
 source = 'git@github.com:aklofas/kicad-happy.git'
 path = 'skills/lcsc'
-commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
-hash = 'sha256:6298c92c16a1bcf57be87fdfcc3d5ba81f8a48902d48d4c01a851e1278b66422'
+commit = '7d9d4d9fef87ac2d3eb16cfc5cdc9a0869f417f4'
+hash = 'sha256:506a2c778d06773f70679c0bde80e895524bd8ba031b945ba0983efa492172a0'
 
 [[skill]]
 name = 'mouser'
 source = 'git@github.com:aklofas/kicad-happy.git'
 path = 'skills/mouser'
-commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
-hash = 'sha256:5ece4c4bed3346ce21f6364549e88c827e752c22188b17259f5bc6ed05423d4d'
+commit = '7d9d4d9fef87ac2d3eb16cfc5cdc9a0869f417f4'
+hash = 'sha256:800903c834235e7f73b13b712309783d422fde34b061e9d17ee72e476fa0b384'
 
 [[skill]]
 name = 'pcbway'
 source = 'git@github.com:aklofas/kicad-happy.git'
 path = 'skills/pcbway'
-commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
-hash = 'sha256:021eac778f28ad7c006a70b309b85625c386e35df1998b31d8bd49f11b75d166'
+commit = '7d9d4d9fef87ac2d3eb16cfc5cdc9a0869f417f4'
+hash = 'sha256:807d9ad92700985a7b5e12bcf020e52c5156a1f5b01dc9f866ffa62cbbe84a5e'
 
 [[skill]]
 name = 'spice'
 source = 'git@github.com:aklofas/kicad-happy.git'
 path = 'skills/spice'
-commit = 'f765dc0916e9752fe2639ca5bad4bda2d5161b8f'
-hash = 'sha256:d013fc9db95637664ea8e013bad306e153f73b6e7317b239c6374d04dc7f3cde'
+commit = '7d9d4d9fef87ac2d3eb16cfc5cdc9a0869f417f4'
+hash = 'sha256:6f94ad85417883366b61a4cea3bfac4be18cd96c631fa18374ebad08569e9ac0'
